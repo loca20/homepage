@@ -13,6 +13,8 @@
 .section__paragraph {
 	padding: 0 30px;
 	line-height: 1.5;
+	text-align: justify;
+	text-indent: 5%;
 }
 
 .section__anchor {
