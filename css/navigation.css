@@ -1,0 +1,29 @@
+.navigation {
+	padding: 10px 20px;
+	background-color: #bbb7b1;
+	text-align: center;
+}
+
+.navigation__item {
+	display: inline;
+	padding: 0 10px;
+	list-style: none;
+}
+
+.navigation__anchor {
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	word-spacing: 3px;
+	color: #0a0a0a;
+	outline: none;
+}
+
+.navigation__anchor:hover {
+	color: #ffeef2;
+}
+
+.navigation__anchor:focus {
+	color: #ffeef2;
+}

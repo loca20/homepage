@@ -1,0 +1,78 @@
+.section {
+	margin: 20px 0;
+	padding: 15px 30px;
+	background-color: #ddd4caa3;
+	box-shadow: 0 0 6px #4a4a4a;
+}
+
+.section__title {
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.section__paragraph {
+	padding: 0 30px;
+	line-height: 1.5;
+}
+
+.section__anchor {
+	margin-left: 95%;
+	padding: 0 10px 5px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #4a4a4a;
+	border: 1px solid #4a4a4a;
+	border-radius: 12px;
+	background-color: #dfdedc;
+	cursor: pointer;
+}
+
+.section__anchor:hover {
+	background-color: #cccbcb;
+}
+
+.section__anchor:active {
+	color: #4a4a4a;
+}
+
+.table {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+.table__cell {
+	padding: 7px 20px;
+	text-align: center;
+	border: 1px solid #4a4a4a;
+}
+
+.table__cell--header {
+	background-color: #dfdedc;
+}
+
+.table__row {
+	background-color: #eeeeee;
+}
+.table__row:hover {
+	font-weight: bold;
+	text-shadow: 0 0 1px;
+	background-color: #ece1e4;
+}
+
+.button {
+	margin: 30px 100px 10px 340px;
+	padding: 10px 30px;
+	width: 250px;
+	border: 1px solid #4a4a4a;
+	border-radius: 12px;
+	background-color: #dfdedc;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #cccbcb;
+}
+
+.button__shadow {
+	box-shadow: 0 0 25px #4a4a4a;
+}

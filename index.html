@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/section.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <h1 class="header__title">Kurs Fronted Developer</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__anchor" href="#o-mnie">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__anchor" href="#dlaczego-kupilam">Dlaczego wykupiłam
+                    kurs?</a></li>
+            <li class="navigation__item"><a class="navigation__anchor" href="#o-kursie">Zawartość kursu</a></li>
+            <li class="navigation__item"><a class="navigation__anchor" href="#spostrzezenia">Moje spostrzeżenia</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section" id="o-mnie">
+            <h2 class="section__title">O mnie</h2>
+            <p class="section__paragraph">Nazywam się Anna Łukaszczyk i mam 38 lat. Nie lubię mojej obecnej pracy:
+                codziennie
+                rano wstaję z negatywnym nastawieniem i marudzę, że znowu muszę <strong>tam</strong> iść. Na początku
+                roku stwierdziłam, iż nie ma sensu dalej w tym trwać. Mam jedno życie i nie chcę w nim nic robić na
+                siłę. Postanowiłam coś zmienić. Myślę, że jest to dobry moment.</p>
+            <a class="section__anchor" href="#header">↑</a>
+        </section>
+        <section class="section" id="dlaczego-kupilam">
+            <h2 class="section__title">Dlaczego wykupiłam kurs?</h2>
+            <p class="section__paragraph">Od jakiegoś czasu myślałam o tym, że chciałabym spróbować swoich sił jako
+                Frontend
+                Developer. Stwierdziłam, że nie mam o tym najmniejszego pojęcia, więc zamiast uczyć się na własną rękę z
+                materiałów, które mogą być przestarzałe postanowiłam wykupić kurs, który przeprowadzi mnie przez
+                podstawy. O kursie ciekawie mówiono na webinarze, na którego reklamę trafiłam zupełnym przypadkiem
+                dosłownie 15 minut przed jego rozpoczęciem. Webinar był prowadzony rzeczowo i sympatycznie, dlatego
+                zdecydowałam się na wykupienie kursu z nadzieją, że na nim będzie równie ciekawie.
+            </p><a class="section__anchor" href="#header">↑</a>
+        </section>
+        <section class="section" id="o-kursie">
+            <h2 class="section__title">Zawartość kursu</h2>
+            <p class="section__paragraph">
+                Kurs składa się z 16 modułów, które są dość treściwe. Ilość lekcji w danym module oraz długość jego
+                trwania obrazuje poniższa tabela:
+            </p>
+            <div class="tableContainer">
+                <table class="table js-table">
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Moduły</th>
+                        <th class="table__cell table__cell--header" scope="col">Ilość lekcji</th>
+                        <th class="table__cell table__cell--header" scope="col">Czas trwania modułu</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 1</th>
+                        <td class="table__cell">10</td>
+                        <td class="table__cell">1h 22min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 2</th>
+                        <td class="table__cell">12</td>
+                        <td class="table__cell">1h 52min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 3</th>
+                        <td class="table__cell">16</td>
+                        <td class="table__cell">3h 24min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 4</th>
+                        <td class="table__cell">13</td>
+                        <td class="table__cell">4h 15min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 5</th>
+                        <td class="table__cell">11</td>
+                        <td class="table__cell">3h 26min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 6</th>
+                        <td class="table__cell">9</td>
+                        <td class="table__cell">2h 46min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 7</th>
+                        <td class="table__cell">7</td>
+                        <td class="table__cell">2h 04min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 8</th>
+                        <td class="table__cell">6</td>
+                        <td class="table__cell">2h 23min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 9</th>
+                        <td class="table__cell">9</td>
+                        <td class="table__cell">1h 42min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 10</th>
+                        <td class="table__cell">6</td>
+                        <td class="table__cell">1h 38min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 11</th>
+                        <td class="table__cell">7</td>
+                        <td class="table__cell">1h 35min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 12</th>
+                        <td class="table__cell">6</td>
+                        <td class="table__cell">1h 45min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 13</th>
+                        <td class="table__cell">5</td>
+                        <td class="table__cell">1h 21min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 14</th>
+                        <td class="table__cell">6</td>
+                        <td class="table__cell">1h 42min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 15</th>
+                        <td class="table__cell">7</td>
+                        <td class="table__cell">2h 44min</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moduł 16</th>
+                        <td class="table__cell">7</td>
+                        <td class="table__cell">2h 01min</td>
+                    </tr>
+                </table>
+            </div>
+            <button class="button button__shadow js-button"><span class="button__text js-buttonText">Dodaj cień
+                    do</span> tabeli</button>
+            <a class="section__anchor" href="#header">↑</a>
+        </section>
+        <section class="section" id="spostrzezenia">
+            <h2 class="section__title">Moje spostrzeżenia</h2>
+            <p class="section__paragraph">Obecnie kończę trzeci moduł kursu i do tej pory jestem zadowolona z tego,
+                czego mogłam
+                się nauczyć. Poszczególne lekcje prowadzone są w sposób przystępny dla początkujących w tym temacie
+                osób. Bardzo mobilizujące jest to, że w razie problemów można otrzymać pomoc w społeczności na Slacku.
+            </p>
+            <a class="section__anchor" href="#header">↑</a>
+        </section>
+    </main>
+    <footer class="footer">Strona stworzona przez Annę Łukaszczyk</footer>
+</body>
+
+</html>
