@@ -1,9 +1,10 @@
 {
 	const button = document.querySelector(".js-button");
-	const textButton = document.querySelector(".js-buttonText");
-	const table = document.querySelector(".js-table");
 
 	const toggleShadow = () => {
+		const table = document.querySelector(".js-table");
+		const textButton = document.querySelector(".js-buttonText");
+
 		table.classList.toggle("button__shadow");
 
 		textButton.innerText = table.classList.contains("button__shadow")
@@ -17,5 +18,9 @@
 		}
 	};
 
-	button.addEventListener("click", toggleShadow);
+	const init = () => {
+		button.addEventListener("click", toggleShadow);
+	};
+
+	init();
 }
